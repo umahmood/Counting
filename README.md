@@ -21,7 +21,7 @@ A small Go library which implements the [counting sort algorithm](https://en.wik
     )
 
     func main() {
-       nums := []int{42, -88, 1, -3, 2, 5}
+       nums := []int{10, 7, 3, 1, 6, 4, 8, 2, 5, 9}
        sorted := counting.Sort(nums)
        fmt.Println(sorted)
        nums = []int{-88, -3, 1, 2, 5, 42}
