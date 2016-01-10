@@ -12,7 +12,7 @@ Example:
     )
 
     func main() {
-        nums := []int{42, -88, 1, -3, 2, 5}
+        nums := []int{10, 7, 3, 1, 6, 4, 8, 2, 5, 9}
 
         sorted := counting.Sort(nums)
 
